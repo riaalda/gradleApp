@@ -7,7 +7,7 @@ A template to start a new Gradle project from.
 Please follow the instructions to get started with the Gradle Exercise. In this exercise we will build a Java CLI
 application
 that prints greets the user in different languages and outputs the text in different colors.
-We will display use Gradle to build the application, manage resources and manage dependencies.
+We will display use Gradle to build the application, manage main.resources and manage dependencies.
 
 ### 1. Download the repository
 
@@ -293,11 +293,11 @@ punctuation (e.g. `!`).
 Each component will be able to specify a text and a color. The application will print the greeting in the specified
 color.
 We will use `*.properties` files to specify the text and color for each component. These files will be located in
-the `src/main/resources` folder.
+the `src/main/main.resources` folder.
 We will name the files `ro.properties`, `en.properties`, `es.properties` and `de.properties` to specify the language of
 the greeting.
 
-Create the following files in the `src/main/resources` folder:
+Create the following files in the `src/main/main.resources` folder:
 
 - `de.properties`:
 
